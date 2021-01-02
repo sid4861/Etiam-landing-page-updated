@@ -15,6 +15,7 @@
 body {
     background-color: white;
     margin: 0;
+    padding: 0;
 }
 
 .nav-bg {
@@ -95,10 +96,51 @@ body {
     line-height: 150%;
 }
 
+.card-text-bold {
+    color: var(--text-color);
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.card-sub-text {
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+}
+
 .card-title {
     font-weight: bold;
     font-size: 18px;
     line-height: 150%;
     color: var(--text-color);
     font-family: 'Inter', sans-serif;
+}
+
+section {
+    margin-top: 130px;
+}
+
+footer {
+    background-color: var(--text-color);
+}
+
+footer p {
+    font-family: 'EB Garamond', serif;
+    color: #FEFEFE;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    width: 576px;
+    margin: auto;
+    padding: 40px;
+    margin-top: 32px;
+}
+
+footer img {
+    width: 105px;
+    height: 38px;
 }
