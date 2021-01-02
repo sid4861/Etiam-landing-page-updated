@@ -78,10 +78,10 @@ body {
     height: 684.63px;
 }
 
-@media (max-width: 460px) {
+@media(max-width: 460px) {
     .jumbotron-image {
         width: 321px;
-        height: 384.63px;
+        height: 484.63px;
     }
 }
 
@@ -105,11 +105,6 @@ body {
     line-height: 19px;
     color: white;
     margin-top: 40px;
-}
-
-.jumbotron-image {
-    width: 521px;
-    height: 684.63px;
 }
 
 .section-heading {
