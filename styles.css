@@ -12,7 +12,8 @@
     --text-color: #3E4A59;
 }
 
-@media (max-width: 576px) {
+
+/* @media (max-width: 576px) {
     .container {
         min-width: 540px;
     }
@@ -29,7 +30,7 @@
     .card {
         width: 100%;
     }
-}
+} */
 
 body {
     background-color: white;
@@ -54,7 +55,7 @@ body {
     font-size: 75px;
     line-height: 98px;
     color: var(--text-color);
-    width: 500px;
+    /* width: 500px; */
 }
 
 .jumbotron {
@@ -67,9 +68,21 @@ body {
     line-height: 22px;
     font-family: 'Inter', sans-serif;
     font-weight: normal;
-    width: 500px;
+    /* width: 500px; */
     margin-top: 40px;
     color: var(--text-color);
+}
+
+.jumbotron-image {
+    width: 521px;
+    height: 684.63px;
+}
+
+@media (max-width: 460px) {
+    .jumbotron-image {
+        width: 321px;
+        height: 384.63px;
+    }
 }
 
 .primary-button {
