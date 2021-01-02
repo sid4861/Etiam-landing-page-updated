@@ -194,9 +194,9 @@ footer img {
     font-size: 55px;
     line-height: 98px;
     color: var(--text-color);
-    width: 700px;
+    /* width: 700px; */
     text-align: center;
-    background: url(./Assets//highlight.svg);
+    background: url(./Assets//highlight.svg) no-repeat center;
     margin: auto;
 }
 
