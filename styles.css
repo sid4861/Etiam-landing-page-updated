@@ -128,7 +128,7 @@ body {
 
 @media(max-width: 460px) {
     .card {
-        margin-top: 16px;
+        margin-top: 32px;
     }
 }
 
