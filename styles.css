@@ -208,6 +208,16 @@ form {
     padding: 32px;
 }
 
+@media(max-width: 460px) {
+    form {
+        background-color: #FFE1CE;
+        width: 343px;
+        height: 310px;
+        margin: 32px auto;
+        padding: 32px;
+    }
+}
+
 form div label {
     font-weight: bold;
     font-size: 16px;
