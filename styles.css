@@ -126,6 +126,12 @@ body {
     margin-top: 16px;
 }
 
+@media(max-width: 460px) {
+    .card {
+        margin-top: 16px;
+    }
+}
+
 .card-text {
     color: var(--text-color);
     font-family: 'Inter', sans-serif;
