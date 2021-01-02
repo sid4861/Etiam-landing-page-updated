@@ -65,6 +65,16 @@ body {
     margin-top: 40px;
 }
 
+.form-button {
+    background-color: var(--primary);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    margin-top: 40px;
+}
+
 .jumbotron-image {
     width: 521px;
     height: 684.63px;
@@ -157,22 +167,18 @@ footer img {
     margin: auto;
 }
 
-.form-body {
-    margin: 0;
-    padding: 0;
-}
-
 form {
+    background-color: #FFE1CE;
     width: 443px;
     height: 310px;
-    background-color: var(--primary-light);
     margin: 32px auto;
+    padding: 32px;
 }
 
-.form-field {
-    margin-top: 56px;
-}
-
-input {
-    display: block;
+form div label {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
 }
