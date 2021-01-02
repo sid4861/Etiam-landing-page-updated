@@ -12,6 +12,25 @@
     --text-color: #3E4A59;
 }
 
+@media (max-width: 576px) {
+    .container {
+        min-width: 540px;
+    }
+    .card {
+        width: 20rem;
+        align-items: center;
+    }
+    .card-body {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
+
 body {
     background-color: white;
     margin: 0;
