@@ -144,3 +144,35 @@ footer img {
     width: 105px;
     height: 38px;
 }
+
+.form-heading {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 98px;
+    color: var(--text-color);
+    width: 700px;
+    text-align: center;
+    background: url(./Assets//highlight.svg);
+    margin: auto;
+}
+
+.form-body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 443px;
+    height: 310px;
+    background-color: var(--primary-light);
+    margin: 32px auto;
+}
+
+.form-field {
+    margin-top: 56px;
+}
+
+input {
+    display: block;
+}
