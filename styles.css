@@ -215,3 +215,15 @@ form div label {
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
 }
+
+.footer-image {
+    width: 540px;
+    height: 370px;
+}
+
+@media(max-width: 460px) {
+    .footer-image {
+        width: 340px;
+        height: 170px;
+    }
+}
